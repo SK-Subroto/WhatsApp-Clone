@@ -59,7 +59,7 @@ function Chat(){
 		<div className='chat'>
 
 			<div className="chat__header">
-				<Avatar src={`https://avatars.dicebear.com/api/human/${seed}.svg`} />
+				<Avatar src={`https://avatars.dicebear.com/api/human/${roomId}.svg`} />
 
 				<div className="chat__headerInfo">
 					<h3>{roomName}</h3>
